@@ -1,7 +1,6 @@
 # 🔥 Shannon-Net
-### *ISP Router Vulnerability Scanner | Built in PTA 🇿🇦*
-
-> Your ISP said the router is secure? Shannon-Net said **"let's check."**
+### *ISP Router Vulnerability Scanner | 
+Your ISP said the router is secure? Shannon-Net said **"let's check."**
 
 ### 😭 The Tea
 Thousands of SA routers still have port 23 (Telnet) and 80 (HTTP) WIDE OPEN. Default password `admin/admin` and they wonder why WiFi gets hacked.
