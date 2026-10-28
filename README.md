@@ -1,4 +1,4 @@
-![Shannon-Net Logo](WhatsApp Image 2026-10-28 at 18.27.03.jpg)
+logo.jpg
 
 # 🔥 Shannon-Net
 ### ISP Router Vulnerability Scanner |
