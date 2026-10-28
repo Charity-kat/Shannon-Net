@@ -1,0 +1,30 @@
+[
+  {
+    "ip": "192.168.1.1",
+    "hostname": "router1",
+    "timestamp": "2026-10-28 16:00:18.266473",
+    "open_ports": [
+      23,
+      80
+    ],
+    "vulnerabilities": [
+      "Telnet open - password can be stolen",
+      "HTTP open - no HTTPS"
+    ],
+    "risk": "HIGH"
+  },
+  {
+    "ip": "192.168.1.2",
+    "hostname": "router2",
+    "timestamp": "2026-10-28 16:00:18.266662",
+    "open_ports": [
+      23,
+      80
+    ],
+    "vulnerabilities": [
+      "Telnet open - password can be stolen",
+      "HTTP open - no HTTPS"
+    ],
+    "risk": "HIGH"
+  }
+]

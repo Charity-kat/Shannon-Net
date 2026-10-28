@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shannon-Net Dashboard</title>
+<meta charset="UTF-8">
+<style>
+body{font-family:Arial;background:#0f172a;color:white;padding:20px}
+.card{background:#1e293b;padding:15px;margin:10px;border-radius:10px;border-left:5px solid #ef4444}
+h1{color:#38bdf8}
+</style>
+</head>
+<body>
+<h1>Shannon-Net - Router Vulnerability Dashboard</h1>
+<p>Scan Date: <span id="date"></span> | Status: 2 HIGH RISK FOUND</p>
+<div id="results"></div>
+<script>
+fetch('scan_results.json')
+.then(r=>r.json())
+.then(data=>{
+  document.getElementById('date').innerText=new Date().toLocaleString();
+  let html='';
+  data.forEach(r=>{
+    html+=`<div class="card">
+    <h3>${r.hostname} (${r.ip}) - RISK: ${r.risk}</h3>
+    <p><b>Open Ports:</b> ${r.open_ports.join(', ')}</p>
+    <p><b>Vulnerabilities:</b></p><ul>${r.vulnerabilities.map(v=>`<li>${v}</li>`).join('')}</ul>
+    </div>`;
+  });
+  document.getElementById('results').innerHTML=html;
+});
+</script>
+</body>
+</html>
