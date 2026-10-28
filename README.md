@@ -1,4 +1,4 @@
-logo.jpg
+![Shannon-Net Logo](logo.jpg)
 
 # 🔥 Shannon-Net
 ### ISP Router Vulnerability Scanner |
