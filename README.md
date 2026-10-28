@@ -1,5 +1,5 @@
 # 🔥 Shannon-Net
-### *ISP Router Vulnerability Scanner | 
+### ISP Router Vulnerability Scanner | 
 Your ISP said the router is secure? Shannon-Net said **"let's check."**
 
 ### 😭 The Tea
