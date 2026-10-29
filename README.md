@@ -1,3 +1,5 @@
+![Shannon-Net Logo](logo.jpg)
+
 # Shannon-Net - Lab Only Educational Scanner
 
 This project ONLY scans my own lab:
